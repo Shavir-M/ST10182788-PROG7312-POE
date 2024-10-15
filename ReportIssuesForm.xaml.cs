@@ -12,12 +12,15 @@ namespace Programming_3B_Part_1
 {
     public partial class ReportIssuesForm : Window
     {
-        private List<string> attachedFiles = new List<string>();  
+        private List<string> attachedFiles = new List<string>();
 
-        public ReportIssuesForm()
+        private int userId;  // Store the logged-in user's ID
+
+        public ReportIssuesForm(int loggedInUserId)
         {
             InitializeComponent();
             DatabaseHelper.InitializeDatabase();  // Initialize the SQLite database using DatabaseHelper
+            userId = loggedInUserId;  // Store the user ID for future use
         }
 
         // Update the progress bar based on form inputs
@@ -177,7 +180,7 @@ namespace Programming_3B_Part_1
         // Event handler for navigating back to the main menu
         private void btnBackToMenu_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainMenu = new MainWindow();
+            MainWindow mainMenu = new MainWindow(userId);
             mainMenu.Show();
             this.Close(); 
         }

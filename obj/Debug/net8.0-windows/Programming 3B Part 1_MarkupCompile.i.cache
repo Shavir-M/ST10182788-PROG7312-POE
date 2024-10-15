@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\App.xaml
-3-1771703513
+7373041314
 
-10-1083042709
+15104717580
 203-144075420
-MainWindow.xaml;ReportIssuesForm.xaml;ViewIssuesForm.xaml;
+AddEventForm.xaml;LocalEventsForm.xaml;LoginForm.xaml;MainWindow.xaml;ReportIssuesForm.xaml;SignUpForm.xaml;ViewIssuesForm.xaml;
 
 False
 

@@ -51,10 +51,10 @@
                     FontSize="16" 
                     Cursor="Hand"
                     Margin="0,10"
-                    Background="Gray" 
-                    Foreground="White" 
+                    Background="{StaticResource PrimaryBrush}" 
+                    Foreground="White"  
                     BorderThickness="0"
-                    IsEnabled="False"/>
+                    Click="btnLocalEvents_Click"/>
 
             <!-- Service Request Status Button -->
             <Button x:Name="btnServiceRequestStatus" 

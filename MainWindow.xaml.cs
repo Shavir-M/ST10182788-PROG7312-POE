@@ -14,23 +14,33 @@ namespace Programming_3B_Part_1
    
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private int loggedInUserId;
+        public MainWindow(int userId)
         {
             InitializeComponent();
+            loggedInUserId = userId;  // Store the logged-in user ID
+           
         }
 
         private void btnReportIssues_Click(object sender, EventArgs e)
         {
-            ReportIssuesForm reportIssuesForm = new ReportIssuesForm();
+            ReportIssuesForm reportIssuesForm = new ReportIssuesForm(loggedInUserId);
             reportIssuesForm.Show();
             this.Hide(); 
         }
 
         private void btnViewIssues_Click(object sender, RoutedEventArgs e)
         {
-            ViewIssuesForm viewIssuesForm = new ViewIssuesForm();
+            ViewIssuesForm viewIssuesForm = new ViewIssuesForm(loggedInUserId);
             viewIssuesForm.Show();
             this.Close();  
+        }
+
+        private void btnLocalEvents_Click(object sender, RoutedEventArgs e)
+        {
+            LocalEventsForm localEventsForm = new LocalEventsForm(loggedInUserId);
+            localEventsForm.Show();
+            this.Close();
         }
     }
 }

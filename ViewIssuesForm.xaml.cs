@@ -18,10 +18,13 @@ namespace Programming_3B_Part_1
         // Static HashSet to track upvotes 
         private static HashSet<int> upvotedIssues = new HashSet<int>();
 
-        public ViewIssuesForm()
+        private int userId;  // Store the logged-in user's ID
+
+        public ViewIssuesForm(int loggedInUserId)
         {
             InitializeComponent();
-            LoadIssuesToDataGrid();  
+            LoadIssuesToDataGrid();
+            userId = loggedInUserId;  // Store the user ID for future use
         }
 
         private void LoadIssuesToDataGrid()
@@ -94,9 +97,11 @@ namespace Programming_3B_Part_1
             }
         }
 
+        
+
         private void btnBackToMenu_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainMenu = new MainWindow();
+            MainWindow mainMenu = new MainWindow(userId);
             mainMenu.Show();
             this.Close();  
         }

@@ -38,3 +38,12 @@ C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Par
 C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\bin\Debug\net8.0-windows\Programming 3B Part 1.pdb
 C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\Programming 3B Part 1.genruntimeconfig.cache
 C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\ref\Programming 3B Part 1.dll
+C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\Programming 3B Part 1.sourcelink.json
+C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\LocalEventsForm.baml
+C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\LocalEventsForm.g.cs
+C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\LoginForm.g.cs
+C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\SignUpForm.g.cs
+C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\LoginForm.baml
+C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\SignUpForm.baml
+C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\AddEventForm.baml
+C:\Users\lab_services_student\Downloads\Programming 3B Part 1\Programming 3B Part 1\Programming 3B Part 1\obj\Debug\net8.0-windows\AddEventForm.g.cs

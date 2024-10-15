@@ -18,7 +18,7 @@
         </StackPanel>
 
         <!-- Main Content StackPanel for form elements -->
-        <StackPanel Margin="300,0,0,20" Width="400" Height="500" >
+        <StackPanel Margin="450,0,0,20" Width="400" Height="500" HorizontalAlignment="Center" >
 
 
             

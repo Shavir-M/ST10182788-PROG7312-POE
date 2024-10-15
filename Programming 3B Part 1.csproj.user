@@ -7,7 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddEventForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LocalEventsForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ReportIssuesForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SignUpForm.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViewIssuesForm.xaml.cs">
@@ -15,10 +27,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AddEventForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LocalEventsForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportIssuesForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SignUpForm.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViewIssuesForm.xaml">
