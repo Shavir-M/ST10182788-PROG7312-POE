@@ -65,7 +65,7 @@ Running the App
 	4.	Use the admin login (user ID 3) to add events and manage the event data.
 
 Admin Access
-
+		Username:admin Password:1234
 	•	Admins are determined based on user ID.
 	•	To log in as an admin, use a pre-configured user with ID 3 or modify the database to set your user ID to 3.
 
