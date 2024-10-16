@@ -10,39 +10,36 @@ Features
 1. Event Management
 
 	•	Users can view events categorized by different themes, such as Government, Community, Entertainment, and Technology.
-	•	Events are displayed with relevant details including title, date, description, location, and importance level.
+	•	Events are displayed with relevant details including title, date, description and location.
 
-2. Search Functionality
+3. Search Functionality
 
 	•	Users can search for events by category or date using a search bar.
 	•	The search results are dynamically displayed as users input their search queries.
 
-3. Recommendations
+4. Recommendations
 
 	•	The app analyzes user search patterns and preferences.
 	•	Based on search frequency and patterns, related events are recommended and displayed in a user-friendly manner.
 
-4. Admin Privileges
+5. Admin Privileges
 
 	•	Admin users (identified by a specific user ID) have additional privileges such as the ability to add new events.
 	•	Admin features are restricted to users with a certain user ID (e.g., user ID 3).
 
-5. Stacks, Queues, and Priority Queues
+6. Stacks, Queues, and Priority Queues
 
 	•	A stack is used to keep track of recent search queries, enabling quick analysis of user preferences.
 	•	A queue is used to store upcoming events in a First-In-First-Out (FIFO) manner, ensuring that events closest to the current date are shown first.
 	•	A priority queue (implemented using a sorted list) is used to sort events based on their importance levels, with more important events being displayed first.
 
-6. Data Structures
+7. Data Structures
 
 	•	HashSets are used to manage and store unique event categories efficiently, ensuring no duplicate categories.
 	•	Dictionaries are used to store events, allowing fast lookups by event ID and enabling efficient retrieval of event information.
 	•	Search query tracking: A dictionary tracks the frequency of search queries to suggest events related to user preferences.
 
-7. Event List and Grid Views
 
-	•	Events are displayed in a ListView, sorted by priority or upcoming date depending on the user’s selection.
-	•	A separate grid is used to show recommended events based on user search patterns.
 
 Getting Started
 
