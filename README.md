@@ -41,31 +41,44 @@ To run this application, ensure the following are installed on your system:
 Installation and Setup
 
 Follow these steps to set up the project on your local machine:
-	1.	Clone the Repository
+1.	Clone the Repository
  
-	•	Open Visual Studio and go to File > Clone Repository.
+•	Open Visual Studio and go to File > Clone Repository.
  
-	•	Enter the repository URL: https://github.com/ST10172466/Prog7312POE.git
-	•	Select a local folder for cloning.
+•	Enter the repository URL: [https://github.com/ST10172466/Prog7312POE.git](https://github.com/Shavir-M/ST10182788-PROG7312-POE.git)
+
+•	Select a local folder for cloning.
  
-	2.	Open the Project
+	
+ 2.	Open the Project
  
-	•	Once cloned, open the project in Visual Studio by selecting the .sln file.
+	
+ •	Once cloned, open the project in Visual Studio by selecting the .sln file.
  
-	3.	Install Dependencies
-	•	Open NuGet Package Manager (Tools > NuGet Package Manager > Manage NuGet Packages for Solution…) and restore any missing packages.
-	4.	Build the Project
-	•	Set the main project as the startup project.
-	•	Build the project by selecting Build > Build Solution from the Visual Studio menu.
-	•	Confirm that there are no build errors before proceeding.
+	
+ 3.	Install Dependencies
+    
+•	Open NuGet Package Manager (Tools > NuGet Package Manager > Manage NuGet Packages for Solution…) and restore any missing packages.
+	
+ 4.	Build the Project
+	
+ •	Set the main project as the startup project.
+	
+ •	Build the project by selecting Build > Build Solution from the Visual Studio menu.
+	
+ •	Confirm that there are no build errors before proceeding.
 
 Running the Application
 
-	1.	Start the Application
-	•	Press F5 or select Debug > Start Debugging to run the application in Debug mode.
-	•	Alternatively, go to Debug > Start Without Debugging to run it without debug messages.
-	2.	Navigate Through the Application
-	•	Use the main menu to access features such as Service Request Status, Report Issues, and Events and Announcements.
+1.	Start the Application
+	
+ •	Press F5 or select Debug > Start Debugging to run the application in Debug mode.
+	
+ •	Alternatively, go to Debug > Start Without Debugging to run it without debug messages.
+ 
+2.	Navigate Through the Application
+
+•	Use the main menu to access features such as Service Request Status, Report Issues, and Events and Announcements.
 
 Using the Application
 
@@ -87,14 +100,21 @@ Troubleshooting
 Contribution Guidelines
 
 Contributions are welcome! Please follow these guidelines:
-	1.	Fork the Repository
-	•	Create a fork of this repository and clone it locally.
-	2.	Create a Feature Branch
-	•	Create a branch for any new features or fixes (git checkout -b feature-branch-name).
-	3.	Commit Changes
-	•	Write meaningful commit messages and document changes thoroughly.
-	4.	Pull Request
-	•	Submit a pull request to the main branch with a description of changes.
+1.	Fork the Repository
+
+•	Create a fork of this repository and clone it locally.
+
+2.	Create a Feature Branch
+
+•	Create a branch for any new features or fixes (git checkout -b feature-branch-name).
+
+3.	Commit Changes
+
+•	Write meaningful commit messages and document changes thoroughly.
+
+4.	Pull Request
+
+•	Submit a pull request to the main branch with a description of changes.
 
 License
 
