@@ -1,5 +1,4 @@
 # Programming-3B-ST10182788-POE
-To achieve a high score on the rubric, let’s make your README.md exceptionally clear and detailed, with comprehensive instructions for compiling, running, and using the software. Here’s an enhanced version:
 
 Municipal Services Application
 
