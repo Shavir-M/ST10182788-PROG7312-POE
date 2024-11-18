@@ -115,6 +115,91 @@ Contributions are welcome! Please follow these guidelines:
 
 •	Submit a pull request to the main branch with a description of changes.
 
+
+Here’s a refined version for your README file:
+
+Using the Application
+
+Upon launching the application, you’ll have four main options:
+
+1. Report Issues
+
+This option opens a new page where you can submit details about an issue you’d like to report. Please fill in the following required fields:
+•	Issue Name
+•	Address
+•	Category
+•	Description
+•	Media Attachment
+
+Once all fields are completed, click the Submit button. You can then choose to submit another report or view all your submitted reports. To review your submitted reports, click the View Reports button, which will take you to the appropriate page.
+
+2. Report View
+
+In this section, you can select a report entry by its name, and all associated details will be displayed.
+
+3. Local Events and Announcements
+
+This option opens a page where you can browse and view various local events. Available actions include:
+•	Search Events: Search by event title.
+•	Filter Events: Filter events by category and date range.
+•	Sort Events: Organize events by title, category, or date.
+•	View Event: See detailed information about a selected event.
+
+4. Services
+
+This section displays all service requests in your area. Available actions include:
+	•	Search Requests: Search requests by title.
+	•	Filter Requests: Filter by status and date range.
+	•	Sort Requests: Sort requests by title, status, date, or priority.
+	•	View Requests: View detailed information about a specific request.
+
+Data Structures Used
+
+4.1 Binary Tree
+
+Used for structuring all service request data, a binary tree allows efficient navigation and supports multiple traversal techniques for various display needs.
+
+Advantages:
+•	Logical organization for easy navigation.
+•	Quick data addition without disrupting structure.
+
+4.2 Binary Search Tree (BST)
+
+The BST enables efficient searching, retrieving, and filtering of service requests by arranging data so each left node is smaller than its parent, and each right node is larger.
+
+Advantages:
+•	Efficient search and in-order data retrieval.
+•	Supports dynamic insertion and deletion.
+•	Ideal for range queries (e.g., service requests between two dates).
+
+4.3 Weighted Graph
+
+This structure manages complex relationships between service requests, especially where dependencies exist. Nodes represent requests, and weights indicate the priority or connection cost.
+
+Advantages:
+•	Represents requests with dependencies.
+•	Supports directed, undirected, and weighted relationships.
+•	Enables easy visualization of relationships.
+
+4.4 Minimum Spanning Tree (MST)
+
+The MST, using Kruskal’s algorithm, prevents cyclical errors by ensuring the graph remains acyclic, which is essential for dependency management.
+
+Advantages:
+	•	Keeps the dependency network acyclic.
+	•	Ensures minimum total weight for the network.
+	•	Suitable for managing large dependency networks.
+
+4.5 Heap
+
+A heap, particularly useful for identifying the most urgent service requests, is structured to prioritize requests based on urgency.
+
+Advantages:
+•	Quickly identifies high-priority requests.
+•	Compact storage compared to other priority queue options.
+•	Configurable as a min-heap or max-heap, depending on needs.
+
+This detailed explanation of each option and data structure helps users understand how to navigate and interact with the application efficiently.
 License
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
