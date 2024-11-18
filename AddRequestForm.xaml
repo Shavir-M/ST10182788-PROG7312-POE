@@ -1,0 +1,21 @@
+﻿<Window x:Class="Programming_3B_Part_1.AddRequestForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add New Request" Height="250" Width="400">
+    <Grid Margin="10">
+        <Label Content="Request ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBox x:Name="RequestIdTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="100,10,0,0"/>
+
+        <Label Content="Description:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
+        <TextBox x:Name="DescriptionTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="100,50,0,0"/>
+
+        <Label Content="Status:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,90,0,0"/>
+        <ComboBox x:Name="StatusComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="100,90,0,0">
+            <ComboBoxItem Content="Pending" />
+            <ComboBoxItem Content="In Progress" />
+            <ComboBoxItem Content="Completed" />
+        </ComboBox>
+
+        <Button Content="Add Request" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="100" Margin="0,0,0,20" Click="AddRequestButton_Click"/>
+    </Grid>
+</Window>

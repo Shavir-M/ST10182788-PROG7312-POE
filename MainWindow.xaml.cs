@@ -22,6 +22,11 @@ namespace Programming_3B_Part_1
            
         }
 
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
         private void btnReportIssues_Click(object sender, EventArgs e)
         {
             ReportIssuesForm reportIssuesForm = new ReportIssuesForm(loggedInUserId);
@@ -40,6 +45,13 @@ namespace Programming_3B_Part_1
         {
             LocalEventsForm localEventsForm = new LocalEventsForm(loggedInUserId);
             localEventsForm.Show();
+            this.Close();
+        }
+
+        private void btnServiceRequestStatus_Click(object sender, RoutedEventArgs e)
+        {
+            ServiceRequestStatusForm serviceRequestStatusForm = new ServiceRequestStatusForm();
+            serviceRequestStatusForm.Show();
             this.Close();
         }
     }

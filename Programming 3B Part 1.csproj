@@ -10,7 +10,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AddRequestForm.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="images\background_prog.png" />
+    <None Remove="images\Logo_prog.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="AddRequestForm.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\background_prog.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Logo_prog.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

@@ -19,6 +19,9 @@
     <Compile Update="ReportIssuesForm.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ServiceRequestStatusForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="SignUpForm.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +43,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportIssuesForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ServiceRequestStatusForm.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SignUpForm.xaml">

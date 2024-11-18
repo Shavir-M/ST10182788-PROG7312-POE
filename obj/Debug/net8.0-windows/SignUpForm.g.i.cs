@@ -76,7 +76,7 @@ namespace Programming_3B_Part_1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Programming 3B Part 1;V1.0.0.0;component/signupform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Programming 3B Part 1;component/signupform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SignUpForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
